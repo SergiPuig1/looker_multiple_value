@@ -74,7 +74,7 @@ looker.plugins.visualizations.add({
       return;
     }
     
-    if (measures.length > 10) {
+    if (measures.length > 20) {
       this.addError({title: "Maximum number of data points", message: "This visualization does not allow more than 10 data points to be selected"});
       return;
     }
